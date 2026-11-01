@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             R.id.action_exit -> {
-                finishAffinity() // Uygulamayı kapatır
+                finishAffinity()
             }
         }
         return super.onOptionsItemSelected(item)
